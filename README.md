@@ -26,4 +26,7 @@ Como pode ver, para acessar o banco de dados MySQL criei um script chamado *db.j
 * Crie um banco de dados MySQL com a mesma estrutura;
 * Clonar o repositório e dar `npm install`
 * Preencha a conexão o db.js com as credenciais do seu banco de dados
-* Insira dados livrimente; 
+* Acesse o diretório `view` e abra o arquivo `index.html`
+* Brinque a vontade;
+
+Volto daqui algum tempo com melhorias :)
