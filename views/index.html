@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paymente Service Provider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="form">
+        <p>
+            <label for="value">VALUE: </label>
+            <input id="value" type="number" value="000" class="inputs">
+        </p>
+        <p>
+            <label for="value" >TIPO DE PAGAMENTO: </label>
+            <select name="payment_type" id="payment_type" class="inputs">
+                <option value="debit_card" class='option-style'>Cartão de débito</option>
+                <option value="credit_card" class='option-style'>Cartão de crédito</option>
+            </select>
+        </p>
+        <p>
+            <label for="value">NUMERO DO CARTÃO: </label>
+            <input id="card_number" type="text" value="0000..." class="inputs">
+        </p>
+        <p>
+            <label for="value">TITULAR DO CARTÃO: </label>
+            <input id="card_owner" type="text" value="" class="inputs">
+        </p>
+        <p>
+            <label for="value">VALIDADE DO CARTÃO: </label>
+            <input id="validaty" type="number" value="0119" class="inputs">
+        </p>
+        <p>
+            <label for="value">CVV: </label>
+            <input id="CVV" type="number" value="123" class="inputs">
+        </p>
+        <p>
+            <label for="value">DESCRIÇÃO: </label>
+            <input id="description" type="text" value="Cadeira" class="inputs">
+        </p>
+        <button onclick="catchData()" class="buttons">FINALIZAR TRANSAÇÃO</button>
+        <a href="./page-2.html" >Ver as Transações</a>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+<!--
+transaction.value,
+transaction.payment_type,
+transaction.card_number,
+transaction.card_owner,
+transaction.validaty,
+transaction.CVV,
+transaction.description
+-->

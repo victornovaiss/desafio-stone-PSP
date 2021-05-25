@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(104, 165, 5);
+}
+
+div#form{
+    margin: auto;
+    width: 500px;
+    margin-top: 100px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.315) 10px 10px;
+}
+
+.inputs{
+    border-radius: 13px;
+    padding: 3px;
+    border-color: rgb(89, 201, 15);
+    font-family: Lato, sans-serif
+}
+.buttons{
+    min-width: 40px;
+    min-height: 40px;
+    background-color:rgb(104, 165, 5);
+    color: white;
+    font-family: Lato, sans-serif;
+    border-radius: 15px;
+    cursor: pointer; 
+    
+    transition:all 0.3s ease;
+    
+}
+
+.buttons:hover{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.option-style{
+    background-color: rgb(104, 165, 5) ;
+    color: white;
+    font-family: Lato, sans-serif;
+    
+}
+
+.transaction{
+    margin: 3px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.315) 10px 10px;
+}
+
+.transaction li{
+    list-style: none;
+    font-family: Lato,sans-serif;
+    margin: 5px;
+    padding: 2px;
+}
