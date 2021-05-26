@@ -86,6 +86,6 @@ function showTransactions() {
     }
 }
 
-if(window.location.href == 'http://127.0.0.1:5500/views/page-2.html'){
+if(window.location.href == 'http://localhost:porta-da-pag-html/views/page-2.html'){
     showTransactions()
 }
